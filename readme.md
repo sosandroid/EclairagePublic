@@ -4,7 +4,7 @@ La gestion de l'éclairage public doit être simple : paramétrage et oubli. Il 
 
 Un automate Crouzet [Millenium Slim](https://soda.crouzet.com/pn/?i=88983903) est utilisé ici pour être en charge de cette gestion sans nécessité de reprogrammation périodique. Il représente un investissement assez faible.
 
-L'automate fonctionnera sur le principe de deux horloges. La première est la définition des heures possibles d'allumage. Par exemple tous les matins de 6h00 à 8h30 et le soir de 17h00 à 21h30. La seconde horloge est astronomique et autorise l'allumage 4h jusqu'au lever du soleil et 7h après le coucher du soleil par exemple.
+L'automate fonctionnera sur le principe de deux horloges. La première est la définition des heures possibles d'allumage. Par exemple tous les matins de 6h00 à 8h30 et le soir de 17h00 à 21h30. La seconde horloge est astronomique et autorise l'allumage 4h avant le lever du soleil et 7h après le coucher du soleil par exemple.
 
 L'éclairage est effectivement allumé lorsque ces deux horloges sont d'accord. Cela permet de gérer les cas particuliers. Par exemple le lever du soleil qui a lieu avant la commande d'allumage du matin ou l'allumage qui voudrait démarrer avant le coucher du soleil. Cela donne une gestion sans maintenance.
 
