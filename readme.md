@@ -26,6 +26,17 @@ A valence, Drôme, France (longitude: -4.90 - Est Latitude: 44.89 - Nord fuseau 
 ![21 septembre](./res/eclairage_public-21-sept.drawio.png)
 ![21 décembre](./res/eclairage_public-21-dec.drawio.png)
 
+## Ecran
+
+L'application CrouzetSoft permet d'afficher l'état de l'automate avec la date, l'heure et les horaires de lever et coucher du soleil.  
+Les boutons ont les fonctions suivantes :
+- A : allumage / extinction manuel de l'éclairage
+- B : activer / désactiver le fonctionnement automatique selon les horloges
+- Haut / Bas: accès aux écrans de configuration de la position géographique
+- Ok : entrer en mode édition / valider l'édition
+- Esc: retour à l'écran principal
+
+![Ecran](./res/ecran.png)
 
 ## Mise en place
 
