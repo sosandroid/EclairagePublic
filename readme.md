@@ -71,3 +71,11 @@ Notez que le positionnement géographique est accessible via l'écran (boutons h
 ## Maintenance
 
 A part si les plages horaires autorisée de l'éclairage change, une seule est nécessaire : recaler l'horloge une fois par an avec l'application Crouzet Virtual Display
+
+## Autres usages
+
+Si cela a été pensé pour un éclairage public, cela peut servir de base pour bien d'autres usage. Quelques exemples:
+- Eclairage du jardin pour des particuliers
+- Gestion des volets roulants motorisés avec quelques modifications
+- Gestion de la porte d'un poulailler
+- etc...
