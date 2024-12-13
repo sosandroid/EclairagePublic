@@ -2,7 +2,7 @@
 
 La gestion de l'éclairage public doit être simple : paramétrage et oubli. Il doit être autonome en toutes conditions. 
 
-Un automate Crouzet [Millenium Slim](https://soda.crouzet.com/pn/?i=88983903) est utilisé ici pour être en charge de cette gestion sans nécessité de reprogrammation périodique.
+Un automate Crouzet [Millenium Slim](https://soda.crouzet.com/pn/?i=88983903) est utilisé ici pour être en charge de cette gestion sans nécessité de reprogrammation périodique. Il représente un investissement assez faible.
 
 L'automate fonctionnera sur le principe de deux horloges. La première est la définition des heures possibles d'allumage. Par exemple tous les matins de 6h00 à 8h30 et le soir de 17h00 à 21h30. La seconde horloge est astronomique et autorise l'allumage 4h jusqu'au lever du soleil et 7h après le coucher du soleil par exemple.
 
@@ -22,7 +22,7 @@ L'éclairage est effectivement allumé lorsque ces deux horloges sont d'accord. 
 
 A valence, Drôme, France (longitude: -4.90 - Est Latitude: 44.89 - Nord fuseau horaire: +60)
 
-![21 juin](./res/eclairage_public-21 jun.drawio.png)
+![21 juin](./res/eclairage_public-21-jun.drawio.png)
 ![21 septembre](./res/eclairage_public-21-sept.drawio.png)
 ![21 décembre](./res/eclairage_public-21-dec.drawio.png)
 
