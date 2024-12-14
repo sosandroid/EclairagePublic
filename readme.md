@@ -81,7 +81,11 @@ Notez que le positionnement géographique est accessible via l'écran (boutons h
 
 ## Maintenance
 
-A part si les plages horaires autorisée de l'éclairage change, une seule est nécessaire : recaler l'horloge une fois par an avec l'application Crouzet Virtual Display
+A part si les plages horaires autorisées de l'éclairage changent, une seule est nécessaire : recaler l'horloge une fois par an avec l'application Crouzet Virtual Display
+
+## Autres automates
+
+Les automates EM4, Milenium Evo et Téléinfo sont compatibles (même logiciel de programmation).
 
 ## Autres usages
 
