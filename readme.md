@@ -1,7 +1,7 @@
 # Eclairage public "intelligent"
 
 Pensé à l'origine pour un éclairage public (de jardin, de vitrine ou d'enseigne lumineuse), ce programme est adapté pour toutes les gestions d'équipement en fonction d'un horaire, du levé et couché du soleil. Il peut donc s'adapter à différents usages moyennant quelques petites adaptations
-- Signalétique aux abors des écoles
+- Signalétique aux abords des écoles
 - L'ouverture et fermeture d'un poulailler
 - Gestion de volets roulants
 - etc...
