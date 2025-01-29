@@ -1,6 +1,6 @@
 # Eclairage public "intelligent"
 
-Pensé à l'origine pour un éclairage public (de jardin, de vitrine ou d'enseigne lumineuse), ce programme est adapté pour toutes les gestions d'équipement en fonction d'un horaire, du levé et couché du soleil. Il peut donc s'adapter à différents usages moyennant quelques petites adaptations
+Pensé à l'origine pour un éclairage public (ou de jardin, de vitrine ou d'enseigne lumineuse), ce programme est adapté pour toutes les gestions d'équipement en fonction d'un horaire, du levé et couché du soleil. Il peut donc s'adapter à différents usages moyennant quelques petites modifications
 - Signalétique aux abords des écoles
 - L'ouverture et fermeture d'un poulailler
 - Gestion de volets roulants
@@ -10,9 +10,7 @@ Pensé à l'origine pour un éclairage public (de jardin, de vitrine ou d'enseig
 
 Il part de deux constats:
 - Les horloges astronomiques classiques, basées sur des évènements horaires non hiérarchisés, amènent à des incohérences de pilotage. Par exemple, la commande d'extinction au lever du jour peut avoir lieu avant la commande d'allumage à 6h00. L'éclairage reste donc allumé en journée. Il est alors nécessaire d'intervenir sur l'horloge.
-- Il est nécessaire de diminuer la consommation d'énergie en évitant un fonctionnement toute la nuit.
-
-Ce programme contribue aussi à augmenter [les réserves de ciel étoilé](https://fr.wikipedia.org/wiki/R%C3%A9serve_de_ciel_%C3%A9toil%C3%A9) dans une moindre mesure.
+- Il est nécessaire de diminuer la consommation d'énergie en évitant un fonctionnement toute la nuit. Cela préserve aussi la vie bio-diversité nocturne et aide au développement [des réserves de ciel étoilé](https://fr.wikipedia.org/wiki/R%C3%A9serve_de_ciel_%C3%A9toil%C3%A9).
 
 
 ## Fonctionnalités
