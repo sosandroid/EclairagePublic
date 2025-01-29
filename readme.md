@@ -1,7 +1,7 @@
 # Eclairage public "intelligent"
 
-Pensé à l'origine pour un éclairage public, ce programme est adapté pour toutes les gestions d'équipement en fonction d'un horaire, du levé et couché du soleil. Il peut donc s'adapter à
-- L'illumination de jardins ou de vitrine
+Pensé à l'origine pour un éclairage public (de jardin, de vitrine ou d'enseigne lumineuse), ce programme est adapté pour toutes les gestions d'équipement en fonction d'un horaire, du levé et couché du soleil. Il peut donc s'adapter à différents usages moyennant quelques petites adaptations
+- Signalétique aux abors des écoles
 - L'ouverture et fermeture d'un poulailler
 - Gestion de volets roulants
 - etc...
@@ -77,7 +77,7 @@ Les deux entrées (éclairage manuel et désactivation de la fonction horloge) n
 - Installez le logiciel CrouzetSoft et laissez les drivers s'installer en même temps
 - Brancher le dongle et vérifier qu'il s'affiche dans le gestionnaire de périphérique comme port série
 - Alimentez votre automate
-- Depuis CrouzetSoft essayez de vous connecteur à l'automate (Contrôleur > Configurer la connexion > Bouetooth)
+- Depuis CrouzetSoft essayez de vous connecteur à l'automate (Contrôleur > Configurer la connexion > Bluetooth)
 - Si le test est OK, passez à la suite, sinon, désactiver le bluetooth de votre ordinateur, redémarrez et recommencez
 - Ouvrir fichier du programme  `Slim_EclairagePublic.pcs`
 - Lancez la simulation si vous le souhaitez
@@ -87,13 +87,15 @@ Les deux entrées (éclairage manuel et désactivation de la fonction horloge) n
 
 Cela se fait à travers les écrans de paramétrage. Il est impératif de les parcourir pour définir les paramètres initiaux de fonctionnement (Brest et Valence n'ont pas les mêmes heures de lever et coucher du soleil par exemple).
 
+Pour ceux qui veulent étudier le programme, le [diagramme complet](./res/Slim_EclairagePublic_V2.pdf) est disponible.
+
 ## Maintenance
 
 Une seule est nécessaire : recaler l'horloge une fois par an avec l'application Crouzet Virtual Display
 
 ## Autres automates
 
-Les automates EM4 et Milenium Evo sont compatibles (même logiciel de programmation).
+Les automates EM4 et Milenium Evo sont compatibles (même logiciel de programmation). Le Millenium 3 est compatible mais nécessite la ré-écriture pour passer par M3Soft
 
 ## Historique des versions
 
