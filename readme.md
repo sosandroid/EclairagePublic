@@ -42,6 +42,7 @@ A valence, Drôme, France (longitude: -4.90 - Est Latitude: 44.89 - Nord fuseau 
 
 L'application Crouzet Virtual Display permet d'afficher l'état de l'automate avec la date, l'heure et les horaires de lever et coucher du soleil.  
 Chaque paramètre est accessible via cet écran également.  
+
 Les boutons ont les fonctions suivantes :
 - A : allumage / extinction manuel de l'éclairage
 - B : activer / désactiver le fonctionnement automatique selon les horloges
@@ -50,6 +51,8 @@ Les boutons ont les fonctions suivantes :
 - Esc: retour à l'écran principal
 
 ![Ecran](./res/ecran.png)
+
+La [documentation des écrans](./res/eclairage_public_ecrans.pdf) est disponible
 
 ## Mise en place
 
