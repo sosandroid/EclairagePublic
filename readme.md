@@ -10,7 +10,7 @@ Pensé à l'origine pour un éclairage public (ou de jardin, de vitrine ou d'ens
 
 Il part de deux constats:
 - Les horloges astronomiques classiques, basées sur des évènements horaires non hiérarchisés, amènent à des incohérences de pilotage. Par exemple, la commande d'extinction au lever du jour peut avoir lieu avant la commande d'allumage à 6h00. L'éclairage reste donc allumé en journée. Il est alors nécessaire d'intervenir sur l'horloge.
-- Il est nécessaire de diminuer la consommation d'énergie en évitant un fonctionnement toute la nuit. Cela préserve aussi la vie bio-diversité nocturne et aide au développement [des réserves de ciel étoilé](https://fr.wikipedia.org/wiki/R%C3%A9serve_de_ciel_%C3%A9toil%C3%A9).
+- Il est nécessaire de diminuer la consommation d'énergie en évitant un fonctionnement toute la nuit. Cela préserve aussi la biodiversité nocturne et aide au développement [des réserves de ciel étoilé](https://fr.wikipedia.org/wiki/R%C3%A9serve_de_ciel_%C3%A9toil%C3%A9).
 
 
 ## Fonctionnalités
