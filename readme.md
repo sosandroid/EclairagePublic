@@ -89,7 +89,7 @@ Les deux entrées (éclairage manuel et désactivation de la fonction horloge) n
 
 Cela se fait à travers les écrans de paramétrage. Il est impératif de les parcourir pour définir les paramètres initiaux de fonctionnement (Brest et Valence n'ont pas les mêmes heures de lever et coucher du soleil par exemple).
 
-Pour ceux qui veulent étudier le programme, le [diagramme complet](./res/Slim_EclairagePublic_V2.pdf) est disponible.
+Pour ceux qui veulent étudier le programme, le [diagramme complet](./res/Slim_EclairagePublic_V2.1_techdoc.pdf) est disponible.
 
 ## Maintenance
 
