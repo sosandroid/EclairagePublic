@@ -2,8 +2,6 @@
 
 Pensé à l'origine pour un éclairage public (ou de jardin, de vitrine ou d'enseigne lumineuse), ce programme est adapté pour toutes les gestions d'équipement en fonction d'un horaire, du levé et couché du soleil. Il peut donc s'adapter à différents usages moyennant quelques petites modifications
 - Signalétique aux abords des écoles
-- L'ouverture et fermeture d'un poulailler
-- Gestion de volets roulants
 - etc...
 
 ## Raison d'être de ce programme
@@ -22,6 +20,7 @@ Les fonctionnalités proposées incluent
 - Allumage manuel pour une durée prédéterminée (mode télérupteur - 9h max)
 - Débrayage du fonctionnement des horloges
 - Visualiser l'état de l'automate sur un écran (via un téléphone)
+- Gestion des sorties - choisir les sorties activables
 - Paramétrage de toutes les fonctionnalités via un écran dédié à chacune
 
 Un automate Crouzet [Millenium Slim](https://soda.crouzet.com/pn/?i=88983903) est utilisé. Il représente un investissement assez faible. Le programme s'adapte aisément sur d'autres automates de la même marque.
@@ -50,7 +49,9 @@ Les boutons ont les fonctions suivantes :
 
 ![Ecran](./res/ecran.png)
 
-La [documentation des écrans](./res/eclairage_public_ecrans.pdf) est disponible
+## Documentation
+
+Une version imprimable de la [documentation](./res/eclairage_public_documentation.pdf) est disponible.
 
 ## Mise en place
 
@@ -102,3 +103,4 @@ Les automates EM4 et Milenium Evo sont compatibles (même logiciel de programmat
 
 - V1.0 11/2024 - permet de gérer les deux calendriers paramétrables avant la programmation de l'automate
 - V2.0 01/2025 - permet d'accéder à tous les paramètres depuis l'écran de l'automate (virtuel dans le cas du SLIM)
+- V2.1 04/2025 - Ajout de la gestion des sorties, correction d'un bug avec l'horloge astronomique
