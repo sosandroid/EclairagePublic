@@ -2,7 +2,10 @@
 
 Pensé à l'origine pour un éclairage public (ou de jardin, de vitrine ou d'enseigne lumineuse), ce programme est adapté pour toutes les gestions d'équipement en fonction d'un horaire, du levé et couché du soleil. Il peut donc s'adapter à différents usages moyennant quelques petites modifications
 - Signalétique aux abords des écoles
-- etc...
+- Eclairage de jardin ou piscine
+- Etc...
+
+[![Buy me a coffee](./res/default-yellow.png)](https://www.buymeacoffee.com/ju9hJ8RqGk)
 
 ## Raison d'être de ce programme
 
@@ -104,3 +107,4 @@ Les automates EM4 et Milenium Evo sont compatibles (même logiciel de programmat
 - V1.0 11/2024 - permet de gérer les deux calendriers paramétrables avant la programmation de l'automate
 - V2.0 01/2025 - permet d'accéder à tous les paramètres depuis l'écran de l'automate (virtuel dans le cas du SLIM)
 - V2.1 04/2025 - Ajout de la gestion des sorties, correction d'un bug avec l'horloge astronomique
+
