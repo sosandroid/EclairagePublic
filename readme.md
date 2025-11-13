@@ -17,9 +17,9 @@ Il part de deux constats:
 ## Fonctionnalités
 Les fonctionnalités proposées incluent
 - Calcul les heures de lever et coucher du soleil en fonction d'un point géographique
-- Deux horaires d'allumage et d'extinction (semaine et week-end) paramétrables
+- Deux horaires d'allumage et d'extinction paramétrables (semaine et week-end)
 - Gestion automatique des changements d'heure été/hiver
-- Temps minimum d'allumage (paramétrable)
+- Temps minimum d'allumage paramétrable
 - Allumage manuel pour une durée prédéterminée (mode télérupteur - 9h max)
 - Débrayage du fonctionnement des horloges
 - Visualiser l'état de l'automate sur un écran (via un téléphone)
@@ -85,8 +85,9 @@ Les deux entrées (éclairage manuel et désactivation de la fonction horloge) n
 - Depuis CrouzetSoft essayez de vous connecteur à l'automate (Contrôleur > Configurer la connexion > Bluetooth)
 - Si le test est OK, passez à la suite, sinon, désactiver le bluetooth de votre ordinateur, redémarrez et recommencez
 - Ouvrir fichier du programme  `Slim_EclairagePublic.pcs`
-- Lancez la simulation si vous le souhaitez
-- Chargez le programme dans l'automate
+- Lancez la simulation si vous le souhaitez vérifier
+- Mettez à jour le firmware de l'automate (contrôleur > mise à jour du firmware)
+- Injectez le programme dans l'automate
 
 ### Personnalisation du programme
 
@@ -107,4 +108,5 @@ Les automates EM4 et Milenium Evo sont compatibles (même logiciel de programmat
 - V1.0 11/2024 - permet de gérer les deux calendriers paramétrables avant la programmation de l'automate
 - V2.0 01/2025 - permet d'accéder à tous les paramètres depuis l'écran de l'automate (virtuel dans le cas du SLIM)
 - V2.1 04/2025 - Ajout de la gestion des sorties, correction d'un bug avec l'horloge astronomique
+
 
