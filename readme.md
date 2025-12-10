@@ -65,8 +65,8 @@ Le câblage est limité et s'adapte aux tableaux électriques existants. Si un m
 - Un automate [Millenium SLIM CB8R](https://www.crouzet.com/products/automation-controllers/millenium-slim)
 - Alimentation 24V si vous avez la version 24V de l'automate
 - Le logiciel [Crouzet Soft](https://www.crouzet.com/softwares/download) gratuit _(Windows seulement)_
-- Le [dongle USB Bluetooth LE - Serial](https://soda.crouzet.com/pn/?i=88980124) si Windows 11
-- Le programme `Slim_EclairagePublic.pcs` disponible ici
+- Le [dongle USB Bluetooth LE - Serial](https://soda.crouzet.com/pn/?i=88980124) utile dans certains cas - ou tout dongle BLE avec le profil RFCOMM
+- Le programme `Slim_EclairagePublic_xxxx.pcs` disponible ici
 - L'application [Crouzet Virtual Display](https://www.crouzet.com/produits/controleurs-automatisme/software/crouzet-virtual-display/) (écran déporté sur PC ou smartphone) - gratuit
 
 ### Schéma de câblage
@@ -80,13 +80,13 @@ Les deux entrées (éclairage manuel et désactivation de la fonction horloge) n
 ### Chargement du programme
 
 - Installez le logiciel CrouzetSoft et laissez les drivers s'installer en même temps
-- Brancher le dongle et vérifier qu'il s'affiche dans le gestionnaire de périphérique comme port série
+    - (option) Brancher le dongle et vérifier qu'il s'affiche dans le gestionnaire de périphérique comme port série
 - Alimentez votre automate
 - Depuis CrouzetSoft essayez de vous connecteur à l'automate (Contrôleur > Configurer la connexion > Bluetooth)
-- Si le test est OK, passez à la suite, sinon, désactiver le bluetooth de votre ordinateur, redémarrez et recommencez
-- Ouvrir fichier du programme  `Slim_EclairagePublic.pcs`
-- Lancez la simulation si vous le souhaitez vérifier
-- Mettez à jour le firmware de l'automate (contrôleur > mise à jour du firmware)
+    - Si le test est OK, passez à la suite, sinon, désactiver le bluetooth de votre ordinateur, redémarrez et recommencez
+- Ouvrir fichier du programme  `Slim_EclairagePublic_xxxx.pcs`
+- Lancez la simulation si vous souhaitez le vérifier
+- Mettez à jour le firmware de l'automate (contrôleur > mise à jour du logiciel et de la langue)
 - Injectez le programme dans l'automate
 
 ### Personnalisation du programme
@@ -97,16 +97,17 @@ Pour ceux qui veulent étudier le programme, le [diagramme complet](./res/Slim_E
 
 ## Maintenance
 
-Une seule est nécessaire : recaler l'horloge une fois par an avec l'application Crouzet Virtual Display
+Une seule est nécessaire : recaler l'horloge deux fois par an avec l'application Crouzet Virtual Display
 
 ## Autres automates
 
-Les automates EM4 et Milenium Evo sont compatibles (même logiciel de programmation). Le Millenium 3 est compatible mais nécessite la ré-écriture pour passer par M3Soft
-
+Les automates EM4, Milenium Evo et Millenium sont compatibles (même logiciel de programmation).
 ## Historique des versions
 
 - V1.0 11/2024 - permet de gérer les deux calendriers paramétrables avant la programmation de l'automate
 - V2.0 01/2025 - permet d'accéder à tous les paramètres depuis l'écran de l'automate (virtuel dans le cas du SLIM)
 - V2.1 04/2025 - Ajout de la gestion des sorties, correction d'un bug avec l'horloge astronomique
+- V2.1.1 12/2025 - Migration vers CrouzetSoft 1.14
+
 
 
