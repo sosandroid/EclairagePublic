@@ -1,6 +1,6 @@
 # Eclairage public "intelligent"
 
-Pensé à l'origine pour un éclairage public (ou de jardin, de vitrine ou d'enseigne lumineuse), ce programme est adapté pour toutes les gestions d'équipement en fonction d'un horaire, du levé et couché du soleil. Il peut donc s'adapter à différents usages moyennant quelques petites modifications
+Pensé à l'origine pour un éclairage public (ou de jardin, de vitrine ou d'enseigne lumineuse), ce programme est adapté pour toutes les gestions d'équipement en fonction d'un horaire, du levé et couché du soleil:
 - Signalétique aux abords des écoles
 - Eclairage de jardin ou piscine
 - Enseignes de magasin
@@ -109,6 +109,7 @@ Les automates EM4, Milenium Evo et Millenium sont compatibles (même logiciel de
 - V2.0 01/2025 - permet d'accéder à tous les paramètres depuis l'écran de l'automate (virtuel dans le cas du SLIM)
 - V2.1 04/2025 - Ajout de la gestion des sorties, correction d'un bug avec l'horloge astronomique
 - V2.1.1 12/2025 - Migration vers CrouzetSoft 1.14
+
 
 
 
